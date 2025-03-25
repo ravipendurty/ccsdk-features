@@ -12,7 +12,7 @@ module org-openroadm-device {
   }
   import ietf-netconf {
     prefix ietf-nc;
-    revision-date 2011-06-01;
+    revision-date 2013-09-29;
   }
   import org-openroadm-common-types {
     prefix org-openroadm-common-types;

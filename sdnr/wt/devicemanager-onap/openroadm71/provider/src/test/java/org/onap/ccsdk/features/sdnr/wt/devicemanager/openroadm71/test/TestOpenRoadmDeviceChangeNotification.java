@@ -42,7 +42,7 @@ import org.opendaylight.yang.gen.v1.http.org.openroadm.device.rev200529.CreateTe
 import org.opendaylight.yang.gen.v1.http.org.openroadm.device.rev200529.change.notification.Edit;
 import org.opendaylight.yang.gen.v1.http.org.openroadm.device.rev200529.change.notification.EditBuilder;
 import org.opendaylight.yang.gen.v1.http.org.openroadm.device.rev200529.circuit.pack.features.circuit.pack.components.Component;
-import org.opendaylight.yang.gen.v1.urn.ietf.params.xml.ns.netconf.base._1._0.rev110601.EditOperationType;
+import org.opendaylight.yang.gen.v1.urn.ietf.params.xml.ns.netconf.base._1._0.rev130929.EditOperationType;
 import org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml.ns.yang.data.provider.rev201110.EventlogBuilder;
 import org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml.ns.yang.data.provider.rev201110.EventlogEntity;
 import org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml.ns.yang.data.provider.rev201110.SourceType;
