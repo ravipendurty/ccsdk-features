@@ -52,4 +52,4 @@ jobs:
           EOF
 
     - name: 🚀 Deploy to GitHub Packages
-      run: mvn deploy -DskipTests=true
+      run: mvn -s ${GITHUB_WORKSPACE}/settings.xml --file pom.xml deploy -DskipTests=true
