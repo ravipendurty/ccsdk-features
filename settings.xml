@@ -254,7 +254,7 @@
               <server>
                 <id>github</id>
                 <username>ravipendurty</username>
-                <password>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</password>
+                <password>${ env.GITHUB_TOKEN }</password>
               </server>
             </servers>
 </settings>
