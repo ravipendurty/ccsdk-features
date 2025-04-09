@@ -250,4 +250,11 @@
             <password>${{repositoryPassword}}</password>
         </server>
     </servers>-->
+	<servers>
+              <server>
+                <id>github</id>
+                <username>ravipendurty</username>
+                <password>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</password>
+              </server>
+            </servers>
 </settings>
