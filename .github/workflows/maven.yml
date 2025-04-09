@@ -52,4 +52,5 @@ jobs:
           EOF
 
     - name: 🚀 Deploy to GitHub Packages
-      run: mvn -s ${GITHUB_WORKSPACE}/settings.xml --file pom.xml deploy -DskipTests=true
+      run: mvn -s ${GITHUB_WORKSPACE}/settings.xml --file pom.xml deploy -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/ravipendurty/ccsdk-features
+-DskipTests=true
