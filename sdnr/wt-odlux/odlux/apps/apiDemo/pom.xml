@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.onap.ccsdk.features.sdnr.odlux</groupId>
-    <artifactId>sdnr-odlux-app-apiDemo</artifactId>
+    <artifactId>sdnr-odlux-app-apidemo</artifactId>
     <version>1.7.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
