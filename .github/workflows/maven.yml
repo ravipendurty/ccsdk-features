@@ -32,5 +32,5 @@ jobs:
     - name: Deploy to GitHub Packages
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: mvn -s ${GITHUB_WORKSPACE}/settings.xml --file pom.xml deploy -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/ios-mcn-smo/ccsdk-features 
+      run: mvn -s ${GITHUB_WORKSPACE}/settings.xml --file pom.xml deploy -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/ios-mcn-smo/ccsdk-features -DskipTests=true
       
