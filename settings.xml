@@ -35,14 +35,14 @@
 			<id>github-packages</id>
 			<repositories>
 				<repository>
-					<id>github-packages</id>
+					<id>github</id>
 					<name>github-packages</name>
 					<url>https://maven.pkg.github.com/ravipendurty/netconf</url>
 				</repository>
 			</repositories>
 			<pluginRepositories>
 				<pluginRepository>
-					<id>github-packages</id>
+					<id>github</id>
 					<name>github-packages</name>
 					<url>https://maven.pkg.github.com/ravipendurty/netconf</url>
 				</pluginRepository>
