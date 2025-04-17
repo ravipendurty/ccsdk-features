@@ -51,6 +51,16 @@ jobs:
     #         </servers>
     #       </settings>
     #       EOF
+    - name: 🔒 Check if GH_PAT is set
+      run: |
+        if [ -z "$GH_PAT" ]; then
+          echo "❌ GH_PAT is NOT set"
+          exit 1
+        else
+          echo "✅ GH_PAT is set"
+        fi
+    - name: 🧾 Print All Environment Variables
+      run: env
 
     - name: 🚀 Deploy to GitHub Packages
       env:
