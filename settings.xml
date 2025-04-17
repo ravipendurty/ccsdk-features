@@ -48,6 +48,23 @@
 				</pluginRepository>
 			</pluginRepositories>
 		</profile>
+				<profile>
+			<id>github-packages</id>
+			<repositories>
+				<repository>
+					<id>github</id>
+					<name>github-packages</name>
+					<url>https://maven.pkg.github.com/ravipendurty/ccsdk-features</url>
+				</repository>
+			</repositories>
+			<pluginRepositories>
+				<pluginRepository>
+					<id>github</id>
+					<name>github-packages</name>
+					<url>https://maven.pkg.github.com/ravipendurty/ccsdk-features</url>
+				</pluginRepository>
+			</pluginRepositories>
+		</profile>
 		<profile>
 			<id>onap-snapshots</id>
 			<repositories>
