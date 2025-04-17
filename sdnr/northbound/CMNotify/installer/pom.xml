@@ -38,7 +38,7 @@
     <name>ccsdk-features :: sdnr-northbound :: ${project.artifactId}</name>
 
     <properties>
-        <application.name>CMNotify</application.name>
+        <application.name>cmnotify</application.name>
         <include.transitive.dependencies>false</include.transitive.dependencies>
     </properties>
 

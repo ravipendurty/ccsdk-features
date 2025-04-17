@@ -38,7 +38,7 @@
     <name>ccsdk-features :: sdnr-northbound :: ${project.artifactId}</name>
 
     <properties>
-        <application.name>ranSlice</application.name>
+        <application.name>ranslice</application.name>
         <include.transitive.dependencies>false</include.transitive.dependencies>
     </properties>
 

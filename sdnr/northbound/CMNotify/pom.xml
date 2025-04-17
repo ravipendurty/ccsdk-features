@@ -45,6 +45,6 @@
     </modules>
 
     <properties>
-        <feature-name>CMNotify</feature-name>
+        <feature-name>cmnotify</feature-name>
     </properties>
 </project>
