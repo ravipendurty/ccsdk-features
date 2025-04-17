@@ -37,14 +37,14 @@
 				<repository>
 					<id>github-packages</id>
 					<name>github-packages</name>
-					<url>https://maven.pkg.github.com/ravipendurty/ccsdk-features</url>
+					<url>https://maven.pkg.github.com/ravipendurty/netconf</url>
 				</repository>
 			</repositories>
 			<pluginRepositories>
 				<pluginRepository>
 					<id>github-packages</id>
 					<name>github-packages</name>
-					<url>https://maven.pkg.github.com/ravipendurty/ccsdk-features</url>
+					<url>https://maven.pkg.github.com/ravipendurty/netconf</url>
 				</pluginRepository>
 			</pluginRepositories>
 		</profile>
