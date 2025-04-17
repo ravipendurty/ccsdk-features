@@ -87,7 +87,7 @@
                                 <!-- connectApp -->
                                 <artifactItem>
                                     <groupId>${project.groupId}</groupId>
-                                    <artifactId>sdnr-odlux-app-connectApp</artifactId>
+                                    <artifactId>sdnr-odlux-app-connectapp</artifactId>
                                     <version>${project.version}</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
@@ -95,7 +95,7 @@
                                 <!-- eventLogApp -->
                                 <artifactItem>
                                     <groupId>${project.groupId}</groupId>
-                                    <artifactId>sdnr-odlux-app-eventLogApp</artifactId>
+                                    <artifactId>sdnr-odlux-app-eventlogapp</artifactId>
                                     <version>${project.version}</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
@@ -103,7 +103,7 @@
                                 <!-- helpApp -->
                                 <artifactItem>
                                     <groupId>${project.groupId}</groupId>
-                                    <artifactId>sdnr-odlux-app-helpApp</artifactId>
+                                    <artifactId>sdnr-odlux-app-helpapp</artifactId>
                                     <version>${project.version}</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
@@ -111,7 +111,7 @@
                                 <!-- maintenanceApp -->
                                 <artifactItem>
                                     <groupId>${project.groupId}</groupId>
-                                    <artifactId>sdnr-odlux-app-maintenanceApp</artifactId>
+                                    <artifactId>sdnr-odlux-app-maintenanceapp</artifactId>
                                     <version>${project.version}</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
@@ -119,7 +119,7 @@
                                 <!-- minimumApp -->
                                 <!--<artifactItem>
                                     <groupId>${project.groupId}</groupId>
-                                    <artifactId>sdnr-odlux-app-minimumApp</artifactId>
+                                    <artifactId>sdnr-odlux-app-minimumapp</artifactId>
                                     <version>${project.version}</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
@@ -127,7 +127,7 @@
                                 <!-- configurationApp -->
                                 <artifactItem>
                                     <groupId>${project.groupId}</groupId>
-                                    <artifactId>sdnr-odlux-app-configurationApp</artifactId>
+                                    <artifactId>sdnr-odlux-app-configurationapp</artifactId>
                                     <version>${project.version}</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
@@ -135,7 +135,7 @@
                                 <!-- demoApp -->
                                 <!--<artifactItem>
                                     <groupId>${project.groupId}</groupId>
-                                    <artifactId>sdnr-odlux-app-demoApp</artifactId>
+                                    <artifactId>sdnr-odlux-app-demoapp</artifactId>
                                     <version>${project.version}</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
@@ -143,7 +143,7 @@
                                 <!-- faultApp -->
                                 <artifactItem>
                                     <groupId>${project.groupId}</groupId>
-                                    <artifactId>sdnr-odlux-app-faultApp</artifactId>
+                                    <artifactId>sdnr-odlux-app-faultapp</artifactId>
                                     <version>${project.version}</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
@@ -151,7 +151,7 @@
                                 <!-- inventoryApp -->
                                 <artifactItem>
                                     <groupId>${project.groupId}</groupId>
-                                    <artifactId>sdnr-odlux-app-inventoryApp</artifactId>
+                                    <artifactId>sdnr-odlux-app-inventoryapp</artifactId>
                                     <version>${project.version}</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
@@ -159,7 +159,7 @@
                                 <!-- performanceHistoryApp -->
                                 <artifactItem>
                                     <groupId>${project.groupId}</groupId>
-                                    <artifactId>sdnr-odlux-app-performanceHistoryApp</artifactId>
+                                    <artifactId>sdnr-odlux-app-performancehistoryapp</artifactId>
                                     <version>${project.version}</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
