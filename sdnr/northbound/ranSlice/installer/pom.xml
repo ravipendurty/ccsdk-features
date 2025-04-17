@@ -105,7 +105,7 @@
                             <useRepositoryLayout>true</useRepositoryLayout>
                             <addParentPoms>false</addParentPoms>
                             <copyPom>false</copyPom>
-                            <includeArtifactIds>ranSlice-model,ranSlice-provider,ranSlice-feature</includeArtifactIds>
+                            <includeArtifactIds>ranslice-model,ranslice-provider,ranslice-feature</includeArtifactIds>
                             <scope>provided</scope>
                         </configuration>
                     </execution>

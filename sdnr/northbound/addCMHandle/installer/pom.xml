@@ -105,7 +105,7 @@
                             <useRepositoryLayout>true</useRepositoryLayout>
                             <addParentPoms>false</addParentPoms>
                             <copyPom>false</copyPom>
-                            <includeArtifactIds>addCMHandle-model,addCMHandle-provider,addCMHandle-feature</includeArtifactIds>
+                            <includeArtifactIds>addcmhandle-model,addcmhandle-provider,addcmhandle-feature</includeArtifactIds>
                             <scope>provided</scope>
                         </configuration>
                     </execution>
