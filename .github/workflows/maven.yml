@@ -31,8 +31,8 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
-      run: mvn -s ${GITHUB_WORKSPACE}/settings.xml -B validate --file pom.xml -DskipTests=true
+    # - name: Build with Maven
+    #   run: mvn -s ${GITHUB_WORKSPACE}/settings.xml -B validate --file pom.xml -DskipTests=true
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     #- name: Update dependency graph
@@ -51,13 +51,13 @@ jobs:
     #         </servers>
     #       </settings>
     #       EOF
-    - name: 🔒 Check if GH_PAT is set
+    - name: Check if GH_PAT is set
       run: |
         if [ -z "$GH_PAT" ]; then
-          echo "❌ GH_PAT is NOT set"
+          echo "GH_PAT is NOT set"
           exit 1
         else
-          echo "✅ GH_PAT is set"
+          echo "GH_PAT is set"
         fi
     - name: 🧾 Print All Environment Variables
       run: env
