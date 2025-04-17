@@ -31,7 +31,7 @@
     </parent>
 
     <groupId>org.onap.ccsdk.features.sdnr.northbound</groupId>
-    <artifactId>addCMHandle-feature</artifactId>
+    <artifactId>addcmhandle-feature</artifactId>
     <version>2.0.1-SNAPSHOT</version>
     <packaging>feature</packaging>
 
@@ -40,7 +40,7 @@
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>addCMHandle-provider</artifactId>
+            <artifactId>addcmhandle-provider</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

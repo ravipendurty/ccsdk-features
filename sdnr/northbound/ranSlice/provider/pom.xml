@@ -31,7 +31,7 @@
     </parent>
 
     <groupId>org.onap.ccsdk.features.sdnr.northbound</groupId>
-    <artifactId>ranSlice-provider</artifactId>
+    <artifactId>ranslice-provider</artifactId>
     <version>2.0.1-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
@@ -40,7 +40,7 @@
     <dependencies>
         <dependency>
             <groupId>org.onap.ccsdk.features.sdnr.northbound</groupId>
-            <artifactId>ranSlice-model</artifactId>
+            <artifactId>ranslice-model</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>

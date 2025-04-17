@@ -67,14 +67,14 @@
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>CMNotify-feature</artifactId>
+            <artifactId>cmnotify-feature</artifactId>
             <version>${project.version}</version>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>ranSlice-feature</artifactId>
+            <artifactId>ranslice-feature</artifactId>
             <version>${project.version}</version>
             <type>xml</type>
             <classifier>features</classifier>
